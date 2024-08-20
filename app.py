@@ -44,7 +44,7 @@ if check_password():
     # Streamlit interface
     st.title("Geneomat - Retranscription textuelle des réunions visios")
     st.markdown("<hr>", unsafe_allow_html=True)
-    st.subheader("Entrez les termes techniques :")
+    st.subheader("Entrez les termes techniques (séparés par une virgule) :")
     whisper_prompt = st.text_area("", "")
     st.markdown("<hr>", unsafe_allow_html=True)
     st.subheader("Téléversez vos fichiers vidéo (AVI, MP4, etc.) :")
