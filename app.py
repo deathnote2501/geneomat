@@ -42,7 +42,7 @@ def check_password():
 
 if check_password():
     # Streamlit interface
-    st.title("Pascaleo - Retranscription textuelle des entretiens visios")
+    st.title("Geneomat - Retranscription textuelle des réunions visios")
     st.markdown("<hr>", unsafe_allow_html=True)
     st.subheader("Entrez les termes techniques :")
     whisper_prompt = st.text_area("", "")
