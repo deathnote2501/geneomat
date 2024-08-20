@@ -44,7 +44,7 @@ if check_password():
     # Streamlit interface
     st.title("Pascaleo - Retranscription textuelle des entretiens visios")
     st.markdown("<hr>", unsafe_allow_html=True)
-    st.subheader("Entrez les termes techniques issus du GPTs #4 :")
+    st.subheader("Entrez les termes techniques :")
     whisper_prompt = st.text_area("", "")
     st.markdown("<hr>", unsafe_allow_html=True)
     st.subheader("Téléversez vos fichiers vidéo (AVI, MP4, etc.) :")
