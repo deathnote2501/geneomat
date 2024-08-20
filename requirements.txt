@@ -2,3 +2,4 @@ openai
 pydub
 streamlit
 fpdf2
+moviepy
